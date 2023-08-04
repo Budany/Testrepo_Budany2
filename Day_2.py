@@ -1,7 +1,7 @@
 材料：lab_jupyter_launch_site_location
 
 学习内容：
-巩固用folium产生地图，给地图添加标记
+巩固用folium产生地图，给地图添加标记，增加marker_cluster
 
 给一个dataframe根据已有列数值新增一列两个方法
 方法1先创建一个新的列df['new_column']=''
@@ -15,5 +15,8 @@ def assign_marker_color(outcome):
     return 'red'
 df['new_column']=df['old_column'].apply(assign_marker_color)
 
+
+理解if __name__ == "__main__"
+掌握eval()
 
 
