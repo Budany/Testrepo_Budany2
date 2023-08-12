@@ -17,5 +17,5 @@ with open() as f:    if condition:    def function():
 重用指的是导入了一个python script作为module使用的python script可以不需要重新写代码而直接使用module中的function，variable，class
 当我们import 一个 module的时候，意味着执行了这个module，也正是因为这样才可以使用这个被执行的module中的function，variable，class
 
-.split()用于分离一个string来生成list的时候，需要注意，必须要有seperator，否则无法完成，如果没有seperator,可以用list expression来生成
+.split()用于分离一个string来生成list的时候，需要注意，必须要有seperator，否则无法完成，如果没有seperator,可以用list comprehension来生成
 
